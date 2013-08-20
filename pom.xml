@@ -9,6 +9,12 @@
     <version>1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+
     <name>Maven Parent</name>
     <description>Maven parent module with configuration of dependencies and plugins.</description>
 
