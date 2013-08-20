@@ -18,7 +18,7 @@
     <name>Maven Parent</name>
     <description>Maven parent module with configuration of dependencies and plugins.</description>
 
-    <url>https://github.com/bednar/jQuery</url>
+    <url>https://github.com/bednar/maven-parent</url>
 
     <licenses>
         <license>
