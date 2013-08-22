@@ -97,6 +97,14 @@
                 <version>5.0.ga</version>
             </dependency>
 
+            <!-- Security -->
+
+            <dependency>
+                <groupId>org.apache.shiro</groupId>
+                <artifactId>shiro-core</artifactId>
+                <version>1.2.2</version>
+            </dependency>
+
             <!-- Utils -->
 
             <dependency>
