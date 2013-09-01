@@ -48,6 +48,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <dependency.resteasy.version>3.0.3.Final</dependency.resteasy.version>
+        <dependency.shiro.version>1.2.2</dependency.shiro.version>
 
     </properties>
 
@@ -112,7 +113,13 @@
             <dependency>
                 <groupId>org.apache.shiro</groupId>
                 <artifactId>shiro-core</artifactId>
-                <version>1.2.2</version>
+                <version>${dependency.shiro.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.shiro</groupId>
+                <artifactId>shiro-web</artifactId>
+                <version>${dependency.shiro.version}</version>
             </dependency>
 
             <!-- HTTP, REST -->
