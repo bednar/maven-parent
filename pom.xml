@@ -49,6 +49,7 @@
 
         <dependency.resteasy.version>3.0.3.Final</dependency.resteasy.version>
         <dependency.shiro.version>1.2.2</dependency.shiro.version>
+        <dependency.jetty.version>9.0.5.v20130815</dependency.jetty.version>
 
     </properties>
 
@@ -166,6 +167,18 @@
                 </exclusions>
             </dependency>
 
+            <dependency>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-server</artifactId>
+                <version>${dependency.jetty.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-webapp</artifactId>
+                <version>${dependency.jetty.version}</version>
+            </dependency>
+
             <!-- Utils -->
 
             <dependency>
@@ -247,7 +260,7 @@
                 <plugin>
                     <groupId>org.eclipse.jetty</groupId>
                     <artifactId>jetty-maven-plugin</artifactId>
-                    <version>9.0.5.v20130815</version>
+                    <version>${dependency.jetty.version}</version>
                     <configuration>
                         <useTestScope>false</useTestScope>
                         <webApp>
