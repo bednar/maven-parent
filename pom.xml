@@ -91,6 +91,12 @@
                 <version>2.1.8</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.github.bednar</groupId>
+                <artifactId>pure</artifactId>
+                <version>0.3.0</version>
+            </dependency>
+
             <!-- Database -->
 
             <dependency>
