@@ -97,6 +97,30 @@
                 <version>0.3.0</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.github.bednar</groupId>
+                <artifactId>underscore.js</artifactId>
+                <version>1.5.1</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.bednar</groupId>
+                <artifactId>backbone.js</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.bednar</groupId>
+                <artifactId>backbone-marionette</artifactId>
+                <version>1.1.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.bednar</groupId>
+                <artifactId>jquery</artifactId>
+                <version>1.10.2</version>
+            </dependency>
+
             <!-- Database -->
 
             <dependency>
