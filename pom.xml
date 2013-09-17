@@ -282,6 +282,27 @@
                 </plugin>
 
                 <plugin>
+                    <groupId>org.lesscss</groupId>
+                    <artifactId>lesscss-maven-plugin</artifactId>
+                    <version>1.3.3</version>
+                    <configuration>
+                        <sourceDirectory>${project.basedir}/src/main/resources/style</sourceDirectory>
+                        <outputDirectory>${project.basedir}/src/main/webapp/style</outputDirectory>
+                        <compress>true</compress>
+                        <includes>
+                            <include>${project.artifactId}.less</include>
+                        </includes>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <goals>
+                                <goal>compile</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+
+                <plugin>
                     <groupId>org.eclipse.jetty</groupId>
                     <artifactId>jetty-maven-plugin</artifactId>
                     <version>${dependency.jetty.version}</version>
