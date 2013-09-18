@@ -111,6 +111,12 @@
 
             <dependency>
                 <groupId>com.github.bednar</groupId>
+                <artifactId>backbone-wreqr</artifactId>
+                <version>0.2.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.bednar</groupId>
                 <artifactId>backbone-marionette</artifactId>
                 <version>1.1.0</version>
             </dependency>
