@@ -86,6 +86,12 @@
             <!-- JavaScripts -->
 
             <dependency>
+                <groupId>org.mozilla</groupId>
+                <artifactId>rhino</artifactId>
+                <version>1.7R4</version>
+            </dependency>
+
+            <dependency>
                 <groupId>com.github.bednar</groupId>
                 <artifactId>RequireJS</artifactId>
                 <version>2.1.8</version>
