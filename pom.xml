@@ -147,6 +147,12 @@
 
             <dependency>
                 <groupId>com.github.bednar</groupId>
+                <artifactId>jade</artifactId>
+                <version>0.35.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.bednar</groupId>
                 <artifactId>handlebars</artifactId>
                 <version>1.0.0</version>
             </dependency>
