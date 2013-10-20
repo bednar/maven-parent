@@ -50,7 +50,7 @@
         <dependency.resteasy.version>3.0.3.Final</dependency.resteasy.version>
         <dependency.shiro.version>1.2.2</dependency.shiro.version>
         <dependency.jetty.version>9.0.5.v20130815</dependency.jetty.version>
-
+        <dependency.maven.version>3.0.4</dependency.maven.version>
     </properties>
 
     <dependencyManagement>
@@ -285,8 +285,14 @@
 
             <dependency>
                 <groupId>org.apache.maven</groupId>
+                <artifactId>maven-core</artifactId>
+                <version>${dependency.maven.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.maven</groupId>
                 <artifactId>maven-plugin-api</artifactId>
-                <version>3.0.4</version>
+                <version>${dependency.maven.version}</version>
             </dependency>
 
             <dependency>
