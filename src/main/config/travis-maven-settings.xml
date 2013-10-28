@@ -9,4 +9,5 @@
             <password>${env.REPOSITORY_PASSWORD}</password>
         </server>
     </servers>
+
 </settings>
