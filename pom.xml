@@ -482,11 +482,17 @@
 
     <distributionManagement>
 
+        <repository>
+            <id>releases-github</id>
+            <name>Releases GitHub</name>
+            <url>http://nexus-bednar.rhcloud.com/nexus/content/repositories/releases-github/</url>
+        </repository>
+
         <snapshotRepository>
-           <id>snapshots-github</id>
-           <name>Snapshots GitHub</name>
-           <url>http://nexus-bednar.rhcloud.com/nexus/content/repositories/snapshots-github/</url>
-       </snapshotRepository>
+            <id>snapshots-github</id>
+            <name>Snapshots GitHub</name>
+            <url>http://nexus-bednar.rhcloud.com/nexus/content/repositories/snapshots-github/</url>
+        </snapshotRepository>
 
     </distributionManagement>
 
