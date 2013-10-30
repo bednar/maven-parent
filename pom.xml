@@ -44,13 +44,17 @@
 
     <properties>
 
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.level>1.7</java.level>
+        <default.encoding>UTF-8</default.encoding>
+
+        <project.build.sourceEncoding>${default.encoding}</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>${default.encoding}</project.reporting.outputEncoding>
 
         <dependency.resteasy.version>3.0.3.Final</dependency.resteasy.version>
         <dependency.shiro.version>1.2.2</dependency.shiro.version>
         <dependency.jetty.version>9.0.5.v20130815</dependency.jetty.version>
         <dependency.maven.version>3.0.4</dependency.maven.version>
+        <dependency.aspectj.version>1.7.3</dependency.aspectj.version>
     </properties>
 
     <dependencyManagement>
@@ -281,6 +285,14 @@
                 <version>${dependency.jetty.version}</version>
             </dependency>
 
+            <!-- Build -->
+
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjrt</artifactId>
+                <version>${dependency.aspectj.version}</version>
+            </dependency>
+
             <!-- Maven -->
 
             <dependency>
@@ -370,9 +382,9 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.1</version>
                     <configuration>
-                        <source>1.7</source>
-                        <target>1.7</target>
-                        <encoding>UTF-8</encoding>
+                        <source>${java.level}</source>
+                        <target>${java.level}</target>
+                        <encoding>${default.encoding}</encoding>
                     </configuration>
                 </plugin>
 
@@ -472,6 +484,22 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-invoker-plugin</artifactId>
                     <version>1.8</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>aspectj-maven-plugin</artifactId>
+                    <version>1.5</version>
+                    <dependencies>
+                        <dependency>
+                            <groupId>org.aspectj</groupId>
+                            <artifactId>aspectjtools</artifactId>
+                            <version>${dependency.aspectj.version}</version>
+                        </dependency>
+                    </dependencies>
+                    <configuration>
+                        <complianceLevel>${default.encoding}</complianceLevel>
+                    </configuration>
                 </plugin>
 
             </plugins>
