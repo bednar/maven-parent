@@ -498,7 +498,7 @@
                         </dependency>
                     </dependencies>
                     <configuration>
-                        <complianceLevel>${default.encoding}</complianceLevel>
+                        <complianceLevel>${java.level}</complianceLevel>
                     </configuration>
                 </plugin>
 
