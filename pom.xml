@@ -55,6 +55,7 @@
         <dependency.jetty.version>9.0.5.v20130815</dependency.jetty.version>
         <dependency.maven.version>3.0.4</dependency.maven.version>
         <dependency.aspectj.version>1.7.3</dependency.aspectj.version>
+        <dependency.maven-plugin.version>3.2</dependency.maven-plugin.version>
     </properties>
 
     <dependencyManagement>
@@ -310,7 +311,7 @@
             <dependency>
                 <groupId>org.apache.maven.plugin-tools</groupId>
                 <artifactId>maven-plugin-annotations</artifactId>
-                <version>3.2</version>
+                <version>${dependency.maven-plugin.version}</version>
             </dependency>
 
             <!-- Utils -->
@@ -477,7 +478,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-plugin-plugin</artifactId>
-                    <version>3.2</version>
+                    <version>${dependency.maven-plugin.version}</version>
                 </plugin>
 
                 <plugin>
