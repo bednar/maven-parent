@@ -56,6 +56,7 @@
         <dependency.maven.version>3.0.4</dependency.maven.version>
         <dependency.aspectj.version>1.7.3</dependency.aspectj.version>
         <dependency.maven-plugin.version>3.2</dependency.maven-plugin.version>
+        <dependency.diffutils.version>1.3.0</dependency.diffutils.version>
     </properties>
 
     <dependencyManagement>
@@ -344,6 +345,12 @@
                 <groupId>org.reflections</groupId>
                 <artifactId>reflections</artifactId>
                 <version>0.9.8</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.googlecode.java-diff-utils</groupId>
+                <artifactId>diffutils</artifactId>
+                <version>${dependency.diffutils.version}</version>
             </dependency>
 
             <!-- Tests -->
