@@ -582,6 +582,16 @@
 
     </repositories>
 
+    <pluginRepositories>
+
+        <pluginRepository>
+            <id>bednar-public</id>
+            <name>Bednar Public Repository</name>
+            <url>http://nexus-bednar.rhcloud.com/nexus/content/groups/public/</url>
+        </pluginRepository>
+
+    </pluginRepositories>
+
     <distributionManagement>
 
         <repository>
