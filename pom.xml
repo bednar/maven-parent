@@ -486,6 +486,12 @@
                 </plugin>
 
                 <plugin>
+                    <groupId>org.eluder.coveralls</groupId>
+                    <artifactId>coveralls-maven-plugin</artifactId>
+                    <version>2.0.1</version>
+                </plugin>
+
+                <plugin>
                     <groupId>com.github.bednar</groupId>
                     <artifactId>aap</artifactId>
                     <version>0.1-SNAPSHOT</version>
