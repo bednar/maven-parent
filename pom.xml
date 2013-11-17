@@ -486,12 +486,6 @@
                 </plugin>
 
                 <plugin>
-                    <groupId>org.eluder.coveralls</groupId>
-                    <artifactId>coveralls-maven-plugin</artifactId>
-                    <version>2.0.1</version>
-                </plugin>
-
-                <plugin>
                     <groupId>com.github.bednar</groupId>
                     <artifactId>aap</artifactId>
                     <version>0.1-SNAPSHOT</version>
@@ -582,6 +576,20 @@
                         <source>${java.level}</source>
                         <target>${java.level}</target>
                     </configuration>
+                </plugin>
+
+                <!-- Test -->
+
+                <plugin>
+                    <groupId>org.eluder.coveralls</groupId>
+                    <artifactId>coveralls-maven-plugin</artifactId>
+                    <version>2.0.1</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.jacoco</groupId>
+                    <artifactId>jacoco-maven-plugin</artifactId>
+                    <version>0.6.3.201306030806</version>
                 </plugin>
 
             </plugins>
