@@ -564,6 +564,12 @@
                 </plugin>
 
                 <plugin>
+                    <groupId>com.samaxes.maven</groupId>
+                    <artifactId>minify-maven-plugin</artifactId>
+                    <version>1.7.2</version>
+                </plugin>
+
+                <plugin>
                     <groupId>org.eclipse.jetty</groupId>
                     <artifactId>jetty-maven-plugin</artifactId>
                     <version>${dependency.jetty.version}</version>
