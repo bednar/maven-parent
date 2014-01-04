@@ -573,16 +573,6 @@
                     <groupId>com.samaxes.maven</groupId>
                     <artifactId>minify-maven-plugin</artifactId>
                     <version>1.7.2</version>
-                    <configuration>
-                        <charset>${default.encoding}</charset>
-                        <webappSourceDir>${project.basedir}/src/main/resources</webappSourceDir>
-                        <webappTargetDir>${project.build.outputDirectory}/</webappTargetDir>
-                        <jsSourceDir>lib</jsSourceDir>
-                        <jsSourceIncludes>
-                            <jsSourceInclude>**/*.js</jsSourceInclude>
-                        </jsSourceIncludes>
-                        <skipMerge>true</skipMerge>
-                    </configuration>
                 </plugin>
 
                 <plugin>
