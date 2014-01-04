@@ -3,7 +3,15 @@ Maven Parent
 
 [![Build Status](https://travis-ci.org/bednar/maven-parent.png?branch=master)](https://travis-ci.org/bednar/maven-parent)
 
-## Maven Repository
+## Dependency
+
+    <dependency>
+        <groupId>com.github.bednar</groupId>
+        <artifactId>maven-parent</artifactId>
+        <version>1-SNAPSHOT</version>
+    </dependency>
+
+## Repository
 
     <repository>
         <id>public</id>
