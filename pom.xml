@@ -414,7 +414,7 @@
             <dependency>
                 <groupId>com.github.bednar</groupId>
                 <artifactId>jade</artifactId>
-                <version>1.0.1</version>
+                <version>1.1.2</version>
             </dependency>
 
             <dependency>
