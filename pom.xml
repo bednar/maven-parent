@@ -52,7 +52,7 @@
 
         <dependency.resteasy.version>3.0.3.Final</dependency.resteasy.version>
         <dependency.shiro.version>1.2.2</dependency.shiro.version>
-        <dependency.jetty.version>9.1.0.v20131115</dependency.jetty.version>
+        <dependency.jetty.version>9.0.5.v20130815</dependency.jetty.version>
         <dependency.maven.version>3.0.4</dependency.maven.version>
         <dependency.aspectj.version>1.7.3</dependency.aspectj.version>
         <dependency.maven-plugin.version>3.2</dependency.maven-plugin.version>
