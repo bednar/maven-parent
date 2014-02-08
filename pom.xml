@@ -765,7 +765,7 @@
         <snapshotRepository>
             <id>snapshots-oss</id>
             <name>Sonatype OSS Snapshots</name>
-            <url>http://nexus-bednar.rhcloud.com/nexus/content/repositories/snapshots-github/</url>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
         </snapshotRepository>
 
     </distributionManagement>
