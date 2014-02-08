@@ -16,6 +16,12 @@
             <password>${env.REPOSITORY_PASSWORD}</password>
         </server>
 
+        <server>
+            <id>snapshots-oss</id>
+            <username>${env.OSS_REPOSITORY_USERNAME}</username>
+            <password>${env.OSS_REPOSITORY_PASSWORD}</password>
+        </server>
+
     </servers>
 
 </settings>
