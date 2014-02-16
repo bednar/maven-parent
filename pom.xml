@@ -139,6 +139,18 @@
                 <version>0.105</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.mongeez</groupId>
+                <artifactId>mongeez</artifactId>
+                <version>0.9.4</version>
+            </dependency>
+
+            <dependency>
+                <groupId>de.flapdoodle.embed</groupId>
+                <artifactId>de.flapdoodle.embed.mongo</artifactId>
+                <version>1.42</version>
+            </dependency>
+
             <!-- Dependency Injection -->
 
             <dependency>
