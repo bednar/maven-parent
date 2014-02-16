@@ -616,6 +616,12 @@
                 </plugin>
 
                 <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>build-helper-maven-plugin</artifactId>
+                    <version>1.8</version>
+                </plugin>
+
+                <plugin>
                     <groupId>com.github.bednar</groupId>
                     <artifactId>aap</artifactId>
                     <version>0.1-SNAPSHOT</version>
