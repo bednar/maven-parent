@@ -573,6 +573,12 @@
                 <version>${dependency.querydsl.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.mysema.querydsl</groupId>
+                <artifactId>querydsl-mongodb</artifactId>
+                <version>${dependency.querydsl.version}</version>
+            </dependency>
+
             <!-- Tests -->
 
             <dependency>
