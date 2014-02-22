@@ -62,6 +62,7 @@
         <dependency.vaadin.version>7.1.10</dependency.vaadin.version>
         <dependency.spring.version>4.0.1.RELEASE</dependency.spring.version>
         <dependency.hibernate.version>4.3.1.Final</dependency.hibernate.version>
+        <dependency.querydsl.version>3.3.1</dependency.querydsl.version>
     </properties>
 
     <dependencyManagement>
@@ -558,6 +559,20 @@
                 <version>3.0.0</version>
             </dependency>
 
+            <!-- Code generation -->
+
+            <dependency>
+                <groupId>com.mysema.querydsl</groupId>
+                <artifactId>querydsl-apt</artifactId>
+                <version>${dependency.querydsl.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.mysema.querydsl</groupId>
+                <artifactId>querydsl-jpa</artifactId>
+                <version>${dependency.querydsl.version}</version>
+            </dependency>
+
             <!-- Tests -->
 
             <dependency>
@@ -800,6 +815,14 @@
                         <source>${java.level}</source>
                         <target>${java.level}</target>
                     </configuration>
+                </plugin>
+
+                <!-- Code generation -->
+
+                <plugin>
+                    <groupId>com.mysema.maven</groupId>
+                    <artifactId>apt-maven-plugin</artifactId>
+                    <version>1.0.9</version>
                 </plugin>
 
                 <!-- Test -->
